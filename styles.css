@@ -1,0 +1,9 @@
+body {
+  background-color: lightblue;
+}
+
+#app {
+  display: grid;
+  place-items: center;
+  margin-top: 10%;
+}
