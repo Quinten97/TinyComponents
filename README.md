@@ -1,4 +1,7 @@
-# TinyComponents
+<p align="center">
+<img  width="500px;" src="https://user-images.githubusercontent.com/89324378/236610468-bd1a7c41-3540-44ee-829c-a3b848dfc56f.svg">
+</p>
+
 
 ### Introduction
 
