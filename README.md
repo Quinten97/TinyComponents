@@ -38,11 +38,15 @@ To create a component first:
   * create a new file either in the src folder or in my recommendation in the components folder ex: Example.js
   * within the file start your component by defining a function:
      
-    > const ExampleComponent = () => {}
+    <blockquote>
+      const ExampleComponent = () => {}
+    </blockquote>
     
     or
     
-    > function ExampleComponent() {}
+    <blockquote>
+      function ExampleComponent() {}
+    </blockquote>
     
   * next within your component you can then return your html, I recommend using template literals to allow dynamic attributes such as classname, disabled, etc.
   
@@ -66,7 +70,10 @@ To create a component first:
   Once you are done with your component make sure you have exported it
   
   ex: 
-  > export const ExampleComponent = () => {}
+  <blockquote> 
+                                           
+    export const ExampleComponent = () => {} 
+  </blockquote>
   
   or
   
@@ -88,4 +95,43 @@ To create a component first:
     export { ExampleComponent };
   </blockquote>
   
+  Once your component is made you can render it by calling its function in App.js:
+  
+  <blockquote>
+
+    import { ExampleComponent } from "./components/ExampleComponent.js";
+
+    export const App = () => {
+      return `
+        ${LoginForm()}
+      `;
+    };
+  </blockquote>
+  
+  or by calling from a parent component: 
+  
+ <blockquote>
+  
+    import { LabeledInput } from "./LabledInput.js";
+
+    const LoginForm = () => {
+      return `
+        <form style="${style.mainForm}">
+          ${LabeledInput("Email:", "email", true)}
+          ${LabeledInput("Password:", "password", true)}
+          <button type="submit">Submit</button>
+        </form>
+      `;
+    };
+
+    export { LoginForm };
+  </blockquote>
+  
+  ### Adding CSS
+  
+  CSS can be added in multiple ways in addition the styles.css file located in the public directory you can also create CSS by importing a CSS file directly into your component like is done in [this example](https://github.com/Quinten97/TinyComponents/blob/main/components/LabledInput.js)
+  
+  Another way to add CSS is to pass your CSS directly to your html from within the same component file such as is done in [This Example](https://github.com/Quinten97/TinyComponents/blob/main/components/LoginForm.js)
+  
+  The bundler we are using can also be configurated to leverage more complex solutions to CSS you can read more by visiting [Parcels](https://parceljs.org/languages/css/) documentation
   
