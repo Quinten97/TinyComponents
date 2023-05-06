@@ -36,7 +36,7 @@ The LabledInput is imported into the LoginForm component which in turn is used i
 
 Feel free to organize your file structure however when adding your components remember that App.js is your main entrypoint for rendering your components.
 
-###Creating a component
+### Creating a component
 
 To create a component first:
 
