@@ -1,9 +1,7 @@
 import { LoginForm } from "./components/LoginForm.js";
 
-const App = () => {
+export const App = () => {
   return `
         ${LoginForm()}
     `;
 };
-
-export { App };

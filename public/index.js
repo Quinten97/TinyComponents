@@ -1,11 +1,11 @@
 import { App } from "../App.js";
 
-const MainRender = (component) => {
+export const MainRender = () => {
   const app = document.getElementById("app");
 
   const componentElement = document.createElement("div");
-  componentElement.innerHTML = component;
+  componentElement.innerHTML = App();
   app.appendChild(componentElement);
 };
 
-MainRender(App());
+MainRender();
