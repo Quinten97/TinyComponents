@@ -47,6 +47,7 @@ To create a component first:
   * next within your component you can then return your html, I recommend using template literals to allow dynamic attributes such as classname, disabled, etc.
   
   <blockquote> 
+  
     const ExampleComponent (inputType, isRequired) => {
     
     const inputId = "exampleInput"
@@ -70,8 +71,8 @@ To create a component first:
   or
   
   <blockquote> 
+                                           
     const ExampleComponent (inputType, isRequired) => {
-    
     const inputId = "exampleInput"
     
       return `
