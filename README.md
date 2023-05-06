@@ -135,3 +135,4 @@ To create a component first:
   
   The bundler we are using can also be configurated to leverage more complex solutions to CSS you can read more by visiting [Parcels](https://parceljs.org/languages/css/) documentation
   
+Thanks again for checking out TinyComponents if you have any questions please feel free to DM me
