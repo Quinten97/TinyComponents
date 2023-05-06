@@ -11,8 +11,9 @@ average programmer could clone this repository and immeadiatly understand whats 
 to say. Not that in this approach there ever was a curtain to hide behind.
 
 ### To get started:
-2: Navigate to your local location and run ~npm install
 
 <ol>
   <li>Clone this repository using your preffered method</li>
+  <li> Navigate to your local location and run <blockquote>npm install</blockquote> </li>
+  <li>Start the local server with the command <blockquote>npm start</blockquote></li>
 </ol>
