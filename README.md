@@ -12,6 +12,8 @@ to say. Not that in this approach there ever was a curtain to hide behind.
 
 ### To get started:
 
+First Download and Install [Node](https://nodejs.org/en)
+
 <ol>
   <li>Clone this repository using your preffered method</li>
   <li> Navigate to your local location and run <blockquote>npm install</blockquote> </li>
